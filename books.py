@@ -1,3 +1,8 @@
 def trier_livres_par_annee(l):
-    a= l.sort(key=lambda l: l["année"])
-    print(a)
+        annees=[]
+        for i in l:
+            annees.append(i["année"])
+        annees.sort()
+        print(annees)
+                
+                
