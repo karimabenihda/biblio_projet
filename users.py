@@ -14,11 +14,12 @@ def to_majuscule(l):
 #3. Créer un dictionnaire associant chaque utilisateur à ses livres aimés.
 
 def livres_aimes(users,aimes):
+    livres_aimes=[]
     for user ,aime in zip(users,aimes) :
-        
         if user[0]==aime[0]:
-            print(user[1],aime[1])
-      
+            print(f"{user[1]} ({user[3]}), aime: {aime[1]}")
+            livres_aimes.append(aime[1])
+            print(livres_aimes)
         # u=user[0]
         # a=aime[0]
         # print(user )
