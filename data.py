@@ -12,7 +12,6 @@ livres = [
 1997}
 ]
 
-
 aime_livres = [
 (1, "1984"),
 (1, "Le Petit Prince"),
