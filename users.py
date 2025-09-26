@@ -16,7 +16,7 @@ def livres_aimes(users,aimes):
     for user ,aime in zip(users,aimes) :
         if user[0]==aime[0]:
             print(f"{user[1]} ({user[3]}), aime: {aime[1]}")
-         
+        
 
 
 # [
