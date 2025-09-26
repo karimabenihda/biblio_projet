@@ -1,5 +1,4 @@
 def trier_année_de_publication(a):
-    livre_t=sorted(a)
-    return
-
-
+    for livre in a:
+        return livre[1]
+    # return sorted(a, key=lambda livre: livre["année"])
